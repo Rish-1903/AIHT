@@ -18,5 +18,33 @@ This repository contains an efficient deep learning model for recognizing Devana
 git clone https://github.com/yourusername/devanagari-character-recognition.git
 cd devanagari-character-recognition
 pip install -r requirements.txt
+```
 
+##Dataset Setup
+Download the Devanagari Handwritten Character Dataset and place it in the data/ directory with the following structure:
 
+```bash
+data/
+└── DevanagariHandwrittenCharacterDataset/
+    ├── Train/
+    │   ├── character_01_ka/
+    │   ├── character_02_kha/
+    │   └── ...
+    └── Test/
+        ├── character_01_ka/
+        ├── character_02_kha/
+        └── ...
+```
+
+## Training 
+```bash
+python training/train.py
+```
+
+## Evaluation
+```bash
+python training/evaluate.py
+```
+
+##Results
+Our EHCR-Net v2 achieves 99.59% accuracy on the test set. See the visualization notebooks for detailed performance analysis.
