@@ -46,5 +46,5 @@ python training/train.py
 python training/evaluate.py
 ```
 
-##Results
-Our EHCR-Net v2 achieves 99.59% accuracy on the test set. See the visualization notebooks for detailed performance analysis.
+## Results
+Our EHCR-Net v2 achieves 99.59% accuracy on the test set.
