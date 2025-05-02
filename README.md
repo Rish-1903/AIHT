@@ -20,7 +20,7 @@ cd devanagari-character-recognition
 pip install -r requirements.txt
 ```
 
-##Dataset Setup
+## Dataset Setup
 Download the Devanagari Handwritten Character Dataset and place it in the data/ directory with the following structure:
 
 ```bash
